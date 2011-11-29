@@ -4,6 +4,7 @@ using System.Collections;
 public class destroyableObjectsScript : MonoBehaviour {
 	
 	private float hitTime = 0.0f;
+	public Transform spawn;
 	
 	// Time it takes to die
 	public float deathTime = 3.0f;
@@ -13,7 +14,7 @@ public class destroyableObjectsScript : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-	
+		
 	}
 	
 	// Update is called once per frame
@@ -28,7 +29,10 @@ public class destroyableObjectsScript : MonoBehaviour {
 			hitTime += Time.deltaTime;
 			
 			if(hitTime >= deathTime){
-				// Do death stuff
+				for(int i = 0; i < 5; i++){
+					Instantiate(spawn, transform.position + Random.insideUnitSphere * 10, transform.rotation);
+				}
+				Destroy(gameObject);
 			}
 		}
 	}
