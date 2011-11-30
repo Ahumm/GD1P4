@@ -1,9 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\particleScript.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\destroyableObjectsScript.cs">
     <Files>
-      <File FileName="Assets\Scripts\destroyableObjectsScript.cs" Line="31" Column="25" />
-      <File FileName="Assets\Scripts\particleScript.js" Line="6" Column="43" />
+      <File FileName="Assets\Scripts\destroyableObjectsScript.cs" Line="30" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

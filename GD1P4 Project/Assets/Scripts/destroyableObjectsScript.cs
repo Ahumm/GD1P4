@@ -5,6 +5,7 @@ public class destroyableObjectsScript : MonoBehaviour {
 	
 	private float hitTime = 0.0f;
 	public Transform spawn;
+	public int numSpawn = 5;
 	
 	// Time it takes to die
 	public float deathTime = 3.0f;
@@ -29,7 +30,7 @@ public class destroyableObjectsScript : MonoBehaviour {
 			hitTime += Time.deltaTime;
 			
 			if(hitTime >= deathTime){
-				for(int i = 0; i < 5; i++){
+				for(int i = 0; i < numSpawn; i++){
 					Instantiate(spawn, transform.position + Random.insideUnitSphere * 10, transform.rotation);
 				}
 				Destroy(gameObject);
