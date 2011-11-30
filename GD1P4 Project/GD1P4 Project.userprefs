@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\destroyableObjectsScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\bubbleScript.cs">
     <Files>
-      <File FileName="Assets\Scripts\destroyableObjectsScript.cs" Line="30" Column="4" />
+      <File FileName="Assets\Scripts\destroyableObjectsScript.cs" Line="18" Column="3" />
+      <File FileName="Assets\Scripts\bubbleScript.cs" Line="15" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
